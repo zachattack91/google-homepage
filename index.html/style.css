@@ -1,9 +1,28 @@
 .image {
-    margin: 50px 0px 0px 200px;
+margin-left: auto;
+margin-right: auto;    
 }
 .search-bar {
-    margin: 0px 0px 0px 250px;
+margin-left: auto;
+margin-right: auto;    
 }
 .navbar-right {
     margin: 0px 0px 50px 600px;
+}
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.search-center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    width: 90%;
+}
+.navbar-right {
+    position: relative;
+    bottom: 20px;
 }
