@@ -1,3 +1,6 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,17 +11,12 @@
     margin-right: auto;
     margin-top: 200px;  
     margin-bottom: 0;
-    display: flex;
+    display: block;
+    text-align: center;
 }
 .search-bar {
-margin-left: auto;
-margin-right: auto;    
-}
-.center {
-    display: flex;
     margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-right: auto;    
 }
 .search-center {
     display: flex;
@@ -62,6 +60,8 @@ margin-right: auto;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: rgb(238, 237, 237);
+    font-family: "Roboto", sans-serif;
 }
 .footer a {
     float: left;
@@ -88,4 +88,20 @@ margin-right: auto;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
+    justify-content: space-between;
+}
+.material-icons {
+    font-size: 4rem;
+}
+.about {
+    font-family: "Roboto", arial, serif;
+}
+.store {
+    font-family: "Roboto", arial, serif;
+}
+.gmail {
+    font-family: "Roboto", serif;
+}
+.images {
+    font-family: "Roboto", serif;
 }
