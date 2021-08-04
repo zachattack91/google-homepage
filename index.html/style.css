@@ -1,6 +1,3 @@
-a, a:hover, a:focus, a:active {
-    text-decoration: none !important;
-}
 * {
     margin: 0;
     padding: 0;
@@ -92,6 +89,8 @@ a, a:hover, a:focus, a:active {
 }
 .material-icons {
     font-size: 4rem;
+    display: flex;
+    position: relative;
 }
 .about {
     font-family: "Roboto", arial, serif;
@@ -104,4 +103,20 @@ a, a:hover, a:focus, a:active {
 }
 .images {
     font-family: "Roboto", serif;
+}
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.submit {
+    background-color: rgb(238, 236, 236);
+    border: 0;
+    font-size: 16px;
+}
+.lucky {
+    background-color: rgb(238, 236, 236);
+    border: 0;
+    font-size: 16px;
 }
